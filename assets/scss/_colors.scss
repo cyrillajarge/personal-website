@@ -1,0 +1,15 @@
+:root {
+  --primary: black;
+  --bg: white;
+  --card-bg: rgba(255, 255, 255, 0.9);
+  --bshadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  --filter: invert(0%);
+}
+
+.dark-mode {
+  --primary: white;
+  --bg: black;
+  --card-bg: rgba(0, 0, 0, 0.9);
+  --bshadow: 0 0 10px rgba(255, 255, 255, 0.4);
+  --filter: invert(100%);
+}

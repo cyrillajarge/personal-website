@@ -5,19 +5,25 @@ module.exports = {
     browser: true,
   },
   extends: [
-    "plugin:vue/recommended",
-    "eslint:recommended",
-    "prettier/vue",
-    "plugin:prettier/recommended",
+    'plugin:vue/recommended',
+    'eslint:recommended',
+    'prettier/vue',
+    'plugin:prettier/recommended',
   ],
   rules: {
-    "vue/component-name-in-template-casing": ["error", "PascalCase"],
-    "no-console": process.env.NODE_ENV === "production" ? "error" : "off",
-    "no-debugger": process.env.NODE_ENV === "production" ? "error" : "off",
-    "prettier/prettier": [
-      "error",
+    'vue/component-name-in-template-casing': ['error', 'PascalCase'],
+    'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    'prettier/prettier': [
+      'error',
       {
-        endOfLine: "auto",
+        endOfLine: 'auto',
+      },
+    ],
+    'vue/no-unused-vars': [
+      'error',
+      {
+        ignorePattern: '^_',
       },
     ],
   },
@@ -25,6 +31,6 @@ module.exports = {
     $nuxt: true,
   },
   parserOptions: {
-    parser: "babel-eslint",
+    parser: 'babel-eslint',
   },
-};
+}

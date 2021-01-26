@@ -1,0 +1,27 @@
+$s: 360px;
+$m: 450px;
+$l: 1024px;
+
+@mixin phone {
+  @media screen and (max-width: $m) {
+    @content;
+  }
+}
+
+@mixin tablet-down {
+  @media screen and (max-width: $l) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media screen and (min-width: ($m+1)) and (max-width: $l) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media screen and (min-width: ($l+1)) {
+    @content;
+  }
+}

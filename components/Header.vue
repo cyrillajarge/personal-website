@@ -23,14 +23,8 @@
       </div>
       <div class="night-container">
         <div
-          :class="{
-            'toggle dark-toggle':
-              $colorMode.preference == 'system' && $colorMode.value == 'dark',
-            'toggle dark-toggle': $colorMode.preference == 'dark',
-            'toggle light-toggle':
-              $colorMode.preference == 'system' && $colorMode.value == 'light',
-            'toggle light-toggle': $colorMode.preference == 'light',
-          }"
+          class="toggle"
+          :class="isDarkMode() ? 'dark-toggle' : 'light-toggle'"
           @click="toggleDarkMode"
         ></div>
       </div>
@@ -56,6 +50,17 @@ export default {
         this.$colorMode.preference = 'light'
       } else {
         this.$colorMode.preference = 'dark'
+      }
+    },
+    isDarkMode() {
+      if (
+        this.$colorMode.preference == 'dark' ||
+        (this.$colorMode.preference == 'system' &&
+          this.$colorMode.value == 'dark')
+      ) {
+        return true
+      } else {
+        return false
       }
     },
     toggleLanguage() {
@@ -228,7 +233,6 @@ export default {
 
       .toggle {
         transition: all 500ms;
-        height: 20px;
       }
 
       .light-toggle {

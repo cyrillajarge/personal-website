@@ -54,11 +54,13 @@ export default {
       @include phone {
         height: auto;
         width: 100%;
+        margin: 50px 0;
       }
 
       @include tablet {
         height: auto;
         width: 80%;
+        margin: 50px 0;
       }
     }
   }

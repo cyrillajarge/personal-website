@@ -21,18 +21,14 @@
           <img src="@/static/etats-unis.svg" alt="English"
         /></NuxtLink>
       </div>
-      <client-only>
-        <div class="night-container">
-          <div
-            class="toggle"
-            :class="{
-              'dark-toggle': $colorMode.preference == 'dark',
-              'light-toggle': $colorMode.preference == 'light',
-            }"
-            @click="toggleDarkMode"
-          ></div>
-        </div>
-      </client-only>
+      <div class="night-container" @click="toggleDarkMode">
+        <div
+          :class="{
+            'toggle dark-toggle': $colorMode.preference == 'dark',
+            'toggle light-toggle': $colorMode.preference == 'light',
+          }"
+        ></div>
+      </div>
     </div>
   </div>
 </template>
@@ -223,6 +219,7 @@ export default {
 
       .toggle {
         transition: all 500ms;
+        height: 20px;
       }
 
       .light-toggle {

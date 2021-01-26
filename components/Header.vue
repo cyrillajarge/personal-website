@@ -21,16 +21,18 @@
           <img src="@/static/etats-unis.svg" alt="English"
         /></NuxtLink>
       </div>
-      <div class="night-container">
-        <div
-          class="toggle"
-          :class="{
-            'dark-toggle': this.$colorMode.preference == 'dark',
-            'light-toggle': this.$colorMode.preference == 'light',
-          }"
-          @click="toggleDarkMode"
-        ></div>
-      </div>
+      <no-ssr>
+        <div class="night-container">
+          <div
+            class="toggle"
+            :class="{
+              'dark-toggle': this.$colorMode.preference == 'dark',
+              'light-toggle': this.$colorMode.preference == 'light',
+            }"
+            @click="toggleDarkMode"
+          ></div>
+        </div>
+      </no-ssr>
     </div>
   </div>
 </template>
@@ -58,7 +60,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .header__main-container {
   padding: 20px 0;
   display: flex;

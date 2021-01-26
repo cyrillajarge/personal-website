@@ -37,7 +37,6 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
-    '@nuxtjs/color-mode',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -46,6 +45,7 @@ export default {
     '@nuxt/content',
     '@nuxtjs/style-resources',
     'nuxt-i18n',
+    '@nuxtjs/color-mode',
   ],
 
   i18n: {

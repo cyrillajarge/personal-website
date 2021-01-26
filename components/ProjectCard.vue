@@ -1,8 +1,5 @@
 <template>
-  <NuxtLink
-    :to="localePath('/projects') + '/' + project.slug"
-    class="card-container"
-  >
+  <div class="card-container">
     <div class="info-square">
       <div class="project-info">
         <h1>{{ project.title }}</h1>
@@ -26,7 +23,7 @@
       <img :src="project.thumbnail.src" :alt="project.thumbnail.alt" />
     </div>
     <div class="decoration-square"></div>
-  </NuxtLink>
+  </div>
 </template>
 
 <script>

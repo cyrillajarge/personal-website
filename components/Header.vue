@@ -21,18 +21,18 @@
           <img src="@/static/etats-unis.svg" alt="English"
         /></NuxtLink>
       </div>
-      <no-ssr>
+      <client-only>
         <div class="night-container">
           <div
             class="toggle"
             :class="{
-              'dark-toggle': this.$colorMode.preference == 'dark',
-              'light-toggle': this.$colorMode.preference == 'light',
+              'dark-toggle': $colorMode.preference == 'dark',
+              'light-toggle': $colorMode.preference == 'light',
             }"
             @click="toggleDarkMode"
           ></div>
         </div>
-      </no-ssr>
+      </client-only>
     </div>
   </div>
 </template>

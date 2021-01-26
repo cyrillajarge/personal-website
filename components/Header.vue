@@ -21,12 +21,17 @@
           <img src="@/static/etats-unis.svg" alt="English"
         /></NuxtLink>
       </div>
-      <div class="night-container" @click="toggleDarkMode">
+      <div class="night-container">
         <div
           :class="{
+            'toggle dark-toggle':
+              $colorMode.preference == 'system' && $colorMode.value == 'dark',
             'toggle dark-toggle': $colorMode.preference == 'dark',
+            'toggle light-toggle':
+              $colorMode.preference == 'system' && $colorMode.value == 'light',
             'toggle light-toggle': $colorMode.preference == 'light',
           }"
+          @click="toggleDarkMode"
         ></div>
       </div>
     </div>
@@ -43,7 +48,11 @@ export default {
   },
   methods: {
     toggleDarkMode() {
-      if (this.$colorMode.preference == 'dark') {
+      if (
+        this.$colorMode.preference == 'dark' ||
+        (this.$colorMode.preference == 'system' &&
+          this.$colorMode.value == 'dark')
+      ) {
         this.$colorMode.preference = 'light'
       } else {
         this.$colorMode.preference = 'dark'

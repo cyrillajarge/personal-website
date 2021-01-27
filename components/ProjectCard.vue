@@ -95,7 +95,8 @@ export default {
     border-radius: 30px;
     background-color: var(--bg);
     z-index: 5;
-    transition: transform 1s, background-color 1s, opacity 1s, box-shadow 1s;
+    transition: transform 0.3s, background-color 0.3s, opacity 0.3s,
+      box-shadow 0.3s;
     box-shadow: none;
     opacity: 0;
 
@@ -210,7 +211,7 @@ export default {
     border-radius: 30px;
     background-color: var(--bg);
     z-index: 3;
-    transition: transform 1s, opacity 1s, box-shadow 1s;
+    transition: transform 0.3s, opacity 0.3s, box-shadow 0.3s;
     box-shadow: none;
     opacity: 0;
 

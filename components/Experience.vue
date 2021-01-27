@@ -99,6 +99,22 @@ export default {
         text-align: justify;
       }
     }
+
+    .nuxt-content {
+      li {
+        color: var(--primary);
+      }
+
+      a {
+        color: var(--primary);
+        text-decoration: underline;
+        position: relative;
+        font-weight: 400;
+
+        &:hover {
+        }
+      }
+    }
   }
 
   .logo-container {

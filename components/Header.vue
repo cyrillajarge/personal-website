@@ -99,14 +99,16 @@ export default {
       text-transform: uppercase;
       font-size: 30px;
       color: var(--primary);
-      font-family: 'Roboto Light';
+      font-family: 'Roboto';
+      font-weight: 300;
 
       @include tablet-down {
         font-size: 20px;
       }
 
       span {
-        font-family: 'Roboto Black';
+        font-family: 'Roboto';
+        font-weight: 900;
       }
     }
   }

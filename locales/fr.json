@@ -3,5 +3,7 @@
     "professional-experiences": "expériences professionelles",
     "learn-more": "en savoir plus",
     "education": "formation",
-    "all-projects": "tous les projets"
+    "all-projects": "tous les projets",
+    "error-page-msg": "Oups... une erreur s'est produite.",
+    "back-home": "Retour à la page principale"
 }

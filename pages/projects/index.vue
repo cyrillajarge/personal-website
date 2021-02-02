@@ -2,17 +2,7 @@
   <div class="ppage__content-container">
     <Title class="ppage-title">{{ $t('projects') }}</Title>
     <p class="ppage-desc">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet
-      diam consequat, dignissim ligula eget, tincidunt ex. Donec nisl nisl,
-      aliquam at turpis in, venenatis vehicula nisl. Etiam dapibus est
-      pellentesque lorem consequat luctus. Nam sit amet nisl et justo rhoncus
-      interdum. Mauris et elit volutpat, volutpat risus vel, molestie erat.
-      Fusce varius lectus ac justo venenatis bibendum. Pellentesque congue sit
-      amet dui non venenatis. Maecenas sit amet urna at lectus placerat
-      tincidunt quis ac purus. Nunc at elit felis. Nunc semper dolor risus, ac
-      hendrerit risus sollicitudin ac. Proin quis ligula elementum, faucibus
-      nulla vel, vestibulum orci. Vivamus eu luctus nunc, sed cursus tellus.
-      Donec accumsan velit et libero elementum pretium.
+      {{ $t('projects-description') }}
     </p>
     <ProjectSection class="ppage-project-section" :projects="projects" />
   </div>

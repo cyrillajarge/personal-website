@@ -28,6 +28,7 @@ export default {
 
 <style lang="scss" scoped>
 .footer-container {
+  margin-top: 50px;
   height: 150px;
   display: flex;
   flex-direction: column;

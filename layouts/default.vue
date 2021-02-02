@@ -42,9 +42,12 @@ strong {
 
 .main-container {
   position: relative;
+  display: flex;
+  flex-direction: column;
   width: 90vw;
   max-width: 1400px;
   margin: 0 auto;
+  min-height: 100vh;
 
   @include tablet-down {
     width: 100%;
@@ -59,7 +62,8 @@ strong {
   }
 
   .content {
-    min-height: calc(100vh - 114px - 150px);
+    // min-height: calc(100vh - 114px - 150px);
+    flex: 1;
 
     @include phone {
       width: 80%;

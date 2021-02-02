@@ -5,5 +5,6 @@
     "education": "formation",
     "all-projects": "tous les projets",
     "error-page-msg": "Oups... une erreur s'est produite.",
-    "back-home": "Retour à la page principale"
+    "back-home": "Retour à la page principale",
+    "projects-description" : "Sur cette page vous pouvez trouver un certain nombre de projets sur lesquels j'ai travaillé, que ce soit des projets dans le cadre de ma formation ou des projets professionnels. Ces projets portent la plupart sur des sujets liés à l'informatique graphique et le traitement d'image. "
 }

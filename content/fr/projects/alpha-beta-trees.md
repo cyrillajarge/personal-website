@@ -1,11 +1,12 @@
 ---
 title: Alpha-omega composantes connexes d'une image pour la segmentation d'images
 description: Segmentation d'image en utilisant des arbres alpha-beta en collaboration avec Simon Lucas dans le cadre de mon cours de M2 sur le traitement d'image et la géométrie discrète.
-date: 2018
+date: 2020
+tag: université
 thumbnail:
   src: /Images/alpha-beta-segmentation/alpha-beta-segmentation.webp
   alt: Normals Filtering
-github: https://www.github.com
+github: https://github.com/cyrillajarge/alpha-beta-segmentation
 ---
 
 ## Courte description

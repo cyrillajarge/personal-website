@@ -2,6 +2,7 @@
 title: Development of my personal website using NuxtJS Content
 description: Portfolio website made from scratch using NuxtJS with NuxtJS Content and SCSS.
 date: 2021
+tag: personal
 thumbnail:
   src: /Images/portfolio-website.webp
   alt: Personal Website

@@ -1,44 +1,48 @@
 ---
-title: Antialiasing spéculaire avec la méthode de Kaplanyan et al. dans le moteur de rendu BGFX
+title: Specular Antialiasing using Kaplanyan et. al method with BGFX rendering library
 description: Master 2 project supervised by Xavier Chermain. The subject is about a technique used to reduce specular aliasing when using microfacets BRDFs for physically based rendering.
 date: 2020
+tag: university
 thumbnail:
   src: /Images/specular-antialiasing/specular-antialiasing-thumbnail.webp
   alt: Normals Filtering
 github: https://github.com/cyrillajarge/specular-antialiasing
 ---
 
-## Courte description
+## Short description
 
-Dans le cadre de mon premier semestre de M2, j'ai choisi de travailler sur les BRDFs à microfacettes ainsi que l'antialiasing spéculaire. Le but du projet était de comprendre ces notions et d'implémenter un modèle de BRDF à micro-facette ainsi que la méthode d'antialiasing de Kaplanyan et al. [[2]](#2) dans le moteur de rendu BGFX [[1]](#1). Une interface graphique construite avec **ImGui** permet d'interagir avec les différents paramètres de la BRDF et permet aussi d'activer ou non l'antialiasing spéculaire. Pour la distribution de normales, on a le choix entre les versions isotropes et anisotropes de GGX et Beckmann. L'aliasing spéculaire peut être observé pour des valeurs de rugosité très faibles.
+As part of my master's second-year first semester project, I chose to work on specular antialiasing and microfacets BRDFs. The goal of the project was to understand what those are and to implement a microfacets BRDF with the rendering library BGFX [[1]](#1) as well as Kaplanyan et al. [[2]](#2) method for specular antialiasing. A graphical user interface built with ImGui allows the interaction with different parameters of the BRDF and also allows to activate or not the specular antialiasing. For the distribution of normals, you have the choice between isotropic and anisotropic versions of GGX and Beckmann. The specular aliasing can be observed for low roughness values.
 
-Le projet a été supervisé par [Xavier Chermain](http://igg.unistra.fr/People/chermain/), chercheur post-doctoral au laboratoire ICube à Strasbourg.
+The project was supervised by [Xavier Chermain](http://igg.unistra.fr/People/chermain/), a post-doctoral researcher at ICube Laboratory in Strasbourg.
 
-## Dépendances de BGFX
+## BGFX Dependencies
 
 - https://github.com/bkaradzic/bx
 - https://github.com/bkaradzic/bimg
 
-## Utilisation
+## How to use
 
-1. Récupérer **bg** ainsi que **bimg** et les mettre dans le même dossier que celui-ci.
-2. Aller à la racine de ce répertoire et exécuter la commande suivante `..\bx\tools\bin\windows\genie.exe --platform=x64 --with-tools --with-examples --with-windows=10 vs2019` pour compiler tous les exemples pour Windows avec Visual Studio 2019. Consulter l'aide de `genie` pour voire comment compiler le projet si vous êtes sur une autre plateforme.
-3. Le projet Visual Studio est ensuite disponible dans le dossier `.build`.
+1. Get **bg** as well as **bimg** and put them in the same directory as this repository.
+2. Go to the root of bgfx directory and run the command `..\bx\tools\bin\windows\genie.exe --platform=x64 --with-tools --with-examples --with-windows=10 vs2019` to build all examples for Windows with Visual Studio 2019. Consult the help of `genie` to see how to build the project if you are on another platform.
+3. The Visual Studio project is then available under the `.build` directory.
 
-L'implémentation est faite dans un exemple nommé **xx-specular-antialiasing** dans le dossier `examples`.
+The implementation is done in an example called **xx-specular-antialiasing** in `examples`.
 
-## Rapport
+## Report
 
-Rapport écrit détaillé téléchargeable: <a href="\Files\Rapport_projet_150h_LAJARGE.pdf" download="rapport-antialiasing-speculaire">Rapport</a>.
+Downloadable written detailed report (in french): <a href="\Files\Rapport_projet_150h_LAJARGE.pdf" download="report-specular-antialiasing">Report</a>.
 
-## Résultats
+## Results
 
-<ins>Sans antialiasing spéculaire:</ins>  
-![Résultat sans antialiasing spéculaire](/Images/specular-antialiasing/no_antialiasing.webp)
-<ins>Avec antialiasing spéculaire:</ins>
-![Résultat avec antialiasing spéculaire](/Images/specular-antialiasing/antialiasing.webp)
+<ins>Without specular antialiasing:</ins>
 
-## Références
+![Result without specular antialiasing](/Images/specular-antialiasing/no_antialiasing.webp)
+
+<ins>With specular antialiasing:</ins>
+
+![Result with specular antialiasing](/Images/specular-antialiasing/antialiasing.webp)
+
+## References
 
 <a id="1">[1]</a>
 Kaplanyan, A. S. and Hill, S. and Patney, A. and Lefohn, A. , **Filtering Distributions of Normals for Shading Antialiasing**, 2016  

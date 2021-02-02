@@ -2,6 +2,7 @@
 title: Développement de mon site web portfolio avec NuxtJS Content
 description: Site web portfolio fait de zéro en utilisant NuxtJS avec NuxtJS Content et SCSS.
 date: 2021
+tag: personnel
 thumbnail:
   src: /Images/portfolio-website.webp
   alt: Personal Website

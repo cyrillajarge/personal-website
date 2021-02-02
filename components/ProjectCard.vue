@@ -2,6 +2,8 @@
   <div class="card-container">
     <div class="info-square">
       <div class="project-info">
+        <p class="project-date">{{ project.date }}</p>
+        <p class="project-tag">{{ project.tag }}</p>
         <h1>{{ project.title }}</h1>
         <p>
           {{ project.description }}
@@ -109,14 +111,44 @@ export default {
     }
 
     .project-info {
-      height: calc(100% - 40px);
-      margin: 20px;
+      height: calc(100% - 60px);
+      margin: 30px;
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
       align-items: center;
+      position: relative;
+
+      .project-tag {
+        position: absolute;
+        top: -10px;
+        right: 0;
+        color: var(--bg) !important;
+        background-color: var(--primary);
+        border-radius: 30px;
+        padding: 5px 10px;
+        margin: 0;
+
+        @include tablet-down {
+          top: -20px;
+        }
+      }
+
+      .project-date {
+        position: absolute;
+        top: -10px;
+        left: 0;
+        margin: 0;
+        padding: 5px 10px;
+
+        @include tablet-down {
+          top: -20px;
+        }
+      }
 
       h1 {
+        margin-bottom: 0;
+        font-size: 25px;
         text-align: center;
         color: var(--primary);
 

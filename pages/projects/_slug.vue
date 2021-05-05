@@ -116,10 +116,15 @@ export default {
         width: auto;
       }
 
+      iframe {
+        width: 100%;
+      }
+
       a,
       p,
       h1,
       h2,
+      h3,
       ul li,
       ol li {
         color: var(--primary);

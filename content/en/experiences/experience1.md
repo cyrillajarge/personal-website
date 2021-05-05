@@ -14,7 +14,7 @@ DXOMARK Analyzer is the camera image and video quality measurement solution used
 
 <ins>**Subject**</ins>: Extension of image quality measurements (photo/video) to 10-bit depth. The objective of this course is to contribute to the extension of some (or possibly all) of the photo and video measurements to 10-bit depth images (the current solution being limited to 8-bit RGB images).
 
-<ins>**Tasks**</ins> :
+<ins>**Tasks**</ins>:
 
 - In-depth study of HDR10 and HDR10+ video formats as well as RGB 10bits video formats.
 - Analysis of the implemented image processing algorithms and their dependence on image depth.
@@ -24,6 +24,6 @@ DXOMARK Analyzer is the camera image and video quality measurement solution used
 
 <ins>**Skills**</ins>:
 
-- Development in C++
-- Development in Python
-- Technical english
+- Development in Python.
+- Development in C++.
+- Technical english.

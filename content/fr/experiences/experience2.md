@@ -12,12 +12,12 @@ logo:
 
 Affectation au sein du département de production d'Euro Information à Strasbourg, France.
 
-<ins>**Mission**</ins> : Développement d'un programme qui détecte les dépendances manquantes entre les processus de création et de lecture de fichiers.
+<ins>**Mission**</ins> : Développement d'un programme permettant de détecter les dépendances manquantes entre des processus de création et de lecture de fichiers.
 
 <ins>**Techniques utilisées**</ins> :
 
 - Analyse de fichiers.
 - Formatage de fichiers.
 - Tri et filtrage de volumes importants.
-- Développement en C#
-- Ecriture de scripts bash
+- Développement en C#.
+- Écriture de scripts bash.

@@ -1,6 +1,6 @@
 ---
 title: Alpha-omega composantes connexes d'une image pour la segmentation d'images
-description: Segmentation d'image en utilisant des arbres alpha-beta en collaboration avec Simon Lucas dans le cadre de mon cours de M2 sur le traitement d'image et la géométrie discrète.
+description: Segmentation d'imaged en utilisant des arbres alpha-beta en collaboration avec Simon Lucas dans le cadre de mon cours de M2 sur le traitement d'image et la géométrie discrète.
 date: 2020
 tag: université
 thumbnail:
@@ -11,7 +11,7 @@ github: https://github.com/cyrillajarge/alpha-beta-segmentation
 
 ## Courte description
 
-Ce projet porte sur la segmentation d'images à partir d'arbres alpha-beta. J'ai travaillé sur ce project en collaboration avec [Simon Lucas](http://www.simon-lucas.fr) dans le cadre de mon cours de traitement d'image et géométrie discrète de mon master 2. L'algorithme implémenté est basé sur celui présenté dans le papier suivant [[1]](#1).
+Ce projet porte sur la segmentation d'images à partir d'arbres alpha-beta. J'ai travaillé sur ce project en collaboration avec [Simon Lucas](http://www.simon-lucas.fr) dans le cadre de mon cours de traitement d'image et géométrie discrète de mon M2. L'algorithme implémenté est basé sur celui présenté dans le papier suivant [[1]](#1).
 
 ## Librairies python
 
@@ -22,7 +22,7 @@ Ce projet porte sur la segmentation d'images à partir d'arbres alpha-beta. J'ai
 ## Utilisation
 
 `python alphatree.py [input-file-path](optional) [alpha] [omega]`  
-Les sorties sont enregistrées dans le dossier `Outputs` et ont le même nom que le fichier en entrée suivante d'un suffixe contenant des informations sur les paramètres utilisés telle que les valeurs de α et ω.
+Les sorties sont enregistrées dans le dossier `Outputs` et ont le même nom que le fichier en entrée suivi d'un suffixe contenant des informations sur les paramètres utilisés telle que les valeurs de α et ω.
 
 ## Définition
 

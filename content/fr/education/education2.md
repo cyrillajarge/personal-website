@@ -10,4 +10,5 @@ logo:
   alt: Unistra
 ---
 
-Licence en informatique classique avec des cours supplémentaires afin d'obtenir le label CMI(Cursus Master en Ingénierie) en fin de master.
+Licence en informatique classique avec des cours supplémentaires d'ouverture socio-écononmique et de spécialisation afin d'obtenir le label CMI(Cursus Master en Ingénierie) en fin de master.
+Licence obtenue avec la mention bien et une moyenne de 15.578/20.

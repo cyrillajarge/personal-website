@@ -10,11 +10,11 @@ logo:
   alt: EES
 ---
 
-Échange universitaire d'une durée d'un semestre dans le cadre de mes études au sein du département d'informatique et de Recherche Opérationnelle de l'Université de Montréal.
+Échange universitaire d'une durée d'un semestre dans le cadre de mes études au sein du Département d'Informatique et de Recherche Opérationnelle de l'Université de Montréal.
 
 <ins>**Cours suivis**</ins>:
 
-- Téléinformatique
-- Introduction à l'algorithmique
-- Optimisation linéaire
-- Infographie
+- Téléinformatique.
+- Introduction à l'algorithmique.
+- Optimisation linéaire.
+- Infographie.

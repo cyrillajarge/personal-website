@@ -70,6 +70,11 @@ export default {
       .project-title {
         text-align: center;
         color: white;
+        font-size: 30px;
+
+        @include tablet-down {
+          font-size: 20px;
+        }
       }
 
       .github {
@@ -97,6 +102,11 @@ export default {
   .content-container {
     width: 60%;
     margin: 0 auto;
+
+    @include tablet-down {
+      width: 100%;
+    }
+
     .nuxt-content {
       img {
         width: 100%;

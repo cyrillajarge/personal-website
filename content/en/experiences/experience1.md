@@ -3,8 +3,8 @@ title: Image Quality Intern at <span class="bold-text">DXOMark</span>, Boulogne-
 description: 6-month dnd of studies internship. Extension of image quality measurements (photo/video) to 10-bit depth.
 date_begin_month: February
 date_begin_year: 2021
-date_end_month: now
-date_end_year:
+date_end_month: August
+date_end_year: 2021
 logo:
   src: /Images/Logo-DXOMark.png
   alt: DXOMark

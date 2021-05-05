@@ -3,8 +3,8 @@ title: Stagiaire ingénieur qualité d'images à <span class="bold-text">DXOMark
 description: Stage de fin d'études. Extension des mesures de qualité d’image (photo/vidéo) à la profondeur 10 bits.
 date_begin_month: Février
 date_begin_year: 2021
-date_end_month: Aujourd'hui
-date_end_year:
+date_end_month: Aout
+date_end_year: 2021
 logo:
   src: /Images/Logo-DXOMark.png
   alt: DXOMark

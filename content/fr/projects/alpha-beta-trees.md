@@ -11,7 +11,7 @@ github: https://github.com/cyrillajarge/alpha-beta-segmentation
 
 ## Courte description
 
-Ce projet porte sur la segmentation d'images à partir d'arbres alpha-beta. J'ai travaillé sur ce project en collaboration avec [Simon Lucas](http://www.simon-lucas.fr) dans le cadre de mon cours de traitement d'image et géométrie discrète de mon M2. L'algorithme implémenté est basé sur celui présenté dans le papier suivant [[1]](#1).
+Ce projet porte sur la segmentation d'images à partir d'arbres alpha-beta. J'ai travaillé sur ce projet en collaboration avec [Simon Lucas](http://www.simon-lucas.fr) dans le cadre de mon cours de traitement d'image et géométrie discrète du M2. L'algorithme implémenté est basé sur celui présenté dans le papier suivant [[1]](#1).
 
 ## Librairies python
 
@@ -34,7 +34,7 @@ Les **(α,ω) composantes connexes** d'un pixel p est la plus grande αi composa
 
 - `alphatree.py`, fonction main et algorithme de labélisation des (α,ω) composantes connexes.
 - `helpers.py`, fonctions auxiliaires.
-- `images.py`, image de teste de la figure 2 du papier [[1]](#1)
+- `images.py`, image de test de la figure 2 du papier [[1]](#1)
 
 ## Résultats
 

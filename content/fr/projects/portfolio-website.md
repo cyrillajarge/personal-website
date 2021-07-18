@@ -1,6 +1,6 @@
 ---
 title: Développement de mon site web portfolio avec NuxtJS Content
-description: Site web portfolio fait de zéro en utilisant NuxtJS avec NuxtJS Content et SCSS.
+description: Site web portfolio "from scratch" en utilisant NuxtJS avec NuxtJS Content et SCSS.
 date: 2021
 tag: personnel
 thumbnail:
@@ -11,9 +11,9 @@ github: https://github.com/cyrillajarge/personal-website
 
 ## Description
 
-Site web développé à la main afin de me présenter plus en détail tant au niveau de ma formation que de mon parcours professionnel. Ce site me permet également de mettre en évidence les différents projets sur lesquels j'ai travaillés, que ce soit des projets pour l'école ou des projets personnels.
+Site web développé "from scratch" afin de me présenter plus en détail tant au niveau de ma formation que de mon parcours professionnel. Ce site permet également de mettre en évidence les différents projets sur lesquels j'ai travaillé, que ce soit des projets pour l'école ou des projets personnels.
 
-Pour créer ce site, j'ai décidé d'utiliser le framework front-end **NuxtJS** car il propose une configuration statique et il permet d'évoluer facilement en basculant par exemple sur une SPA si nécessaire.
+Pour créer ce site, j'ai choisi le framework front-end **NuxtJS** car il propose une configuration statique et il permet d'évoluer facilement en basculant par exemple sur une SPA si nécessaire.
 
 Technologies utilisées:
 

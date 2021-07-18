@@ -11,15 +11,15 @@ github: https://github.com/cyrillajarge/jewelry-website-laravel-vuejs
 
 ## Description
 
-En tant que projet personnel et pour me former au développement web "fullstack", j'ai commencé un site vitrine pour l'entreprise d'un ami sur le thème de la bijouterie. Le site est composé de plusieurs pages avec des informations sur l'entreprise et sur les différents produits.   
-Il y a aussi une section admin pour gérer tout le contenu facilement pour quelqu'un qui n'est pas familié avec le développement web. Je sais que je réinvente en quelques sorte la route en faisant une section admin qui ressemble à un CMS mais je l'ai fait pour me former.
+En tant que projet personnel et pour me former au développement web "fullstack", j'ai commencé un site vitrine pour l'entreprise d'un ami sur le thème de la bijouterie. Le site est composé de plusieurs pages avec des informations sur la société et sur les différents produits.   
+Il y a aussi une section administrateur pour gérer tout le contenu facilement pour quelqu'un qui n'a pas de connaissances en développement web.
 
 Stack:
-- **Laravel** pour le backend en l'utilisant en tant API
-- **VueJS**
-- **SCSS**
+- **Laravel** pour le backend en l'utilisant en tant qu'API.
+- **VueJS**.
+- **SCSS**.
 
-Malheuresement, par manque de temps, je n'ai pas pu finir le projet.
+Le site est encore en cours de développement.
 
 Le code source est disponible sur [Github](https://github.com/cyrillajarge/jewelry-website-laravel-vuejs).
 

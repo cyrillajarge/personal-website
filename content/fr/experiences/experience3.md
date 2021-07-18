@@ -12,7 +12,7 @@ logo:
 
 Stage de découverte en entreprise d'une durée de 4 semaines.
 
-Postes que j'ai découverts et auxquels j'ai été temporairement affecté :
+Postes que j'ai découverts et auxquels j'ai été affecté :
 
 - Vendeur
 - Caissier

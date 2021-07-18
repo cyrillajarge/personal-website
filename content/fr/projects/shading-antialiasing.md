@@ -23,7 +23,7 @@ Le projet a été supervisé par [Xavier Chermain](http://igg.unistra.fr/People/
 ## Utilisation
 
 1. Récupérer **bg** ainsi que **bimg** et les mettre dans le même dossier que celui-ci.
-2. Aller à la racine de ce répertoire et exécuter la commande suivante `..\bx\tools\bin\windows\genie.exe --platform=x64 --with-tools --with-examples --with-windows=10 vs2019` pour compiler tous les exemples pour Windows avec Visual Studio 2019. Consulter l'aide de `genie` pour voire comment compiler le projet si vous êtes sur une autre plateforme.
+2. Aller à la racine de ce répertoire et exécuter la commande suivante `..\bx\tools\bin\windows\genie.exe --platform=x64 --with-tools --with-examples --with-windows=10 vs2019` pour compiler tous les exemples pour Windows avec Visual Studio 2019. Consulter l'aide de `genie` pour savoir comment compiler le projet si vous êtes sur une autre plateforme.
 3. Le projet Visual Studio est ensuite disponible dans le dossier `.build`.
 
 L'implémentation est faite dans un exemple nommé **xx-specular-antialiasing** dans le dossier `examples`.

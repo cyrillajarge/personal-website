@@ -96,7 +96,8 @@ export default {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    height: calc(100vh - 114px);
+    margin-top: 114px;
+    margin-bottom: 100px;
 
     @include tablet-down {
       height: auto;

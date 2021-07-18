@@ -15,10 +15,10 @@
       </div>
       <div class="language-container">
         <NuxtLink v-show="$i18n.locale == 'fr'" :to="switchLocalePath('en')"
-          ><img src="@/static/france.svg" alt="Francais"
+          ><img src="@/static/etats-unis.svg" alt="English"
         /></NuxtLink>
         <NuxtLink v-show="$i18n.locale == 'en'" :to="switchLocalePath('fr')">
-          <img src="@/static/etats-unis.svg" alt="English"
+          <img src="@/static/france.svg" alt="Francais"
         /></NuxtLink>
       </div>
       <div class="night-container">

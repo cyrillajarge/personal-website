@@ -3,7 +3,11 @@
     <div class="home__about-container">
       <div class="info-container">
         <h1 class="info-title" v-html="home.info_title" />
-        <p class="info-text" v-html="home.info_text" />
+        <p class="info-text">
+          <span v-html="home.info_text_1" />
+          <span class="strong-text">{{ calculateAge }}</span>
+          <span v-html="home.info_text_2" />
+        </p>
         <MoreButton :link="localePath('/projects')" class="projects-button">{{
           $t('projects')
         }}</MoreButton>
@@ -79,6 +83,15 @@ export default {
       .limit(2)
       .fetch()
     return { home, experiences, education, projects }
+  },
+  computed: {
+    calculateAge: function () {
+      let currentDate = new Date()
+      let birthDate = new Date('1997/01/31')
+      let difference = currentDate - birthDate
+      let age = Math.floor(difference / 31557600000)
+      return age
+    },
   },
 }
 </script>

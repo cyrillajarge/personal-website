@@ -128,6 +128,7 @@ export default {
       ul li,
       ol li {
         color: var(--primary);
+        text-align: justify;
       }
 
       a {

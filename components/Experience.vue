@@ -90,8 +90,9 @@ export default {
     }
 
     p {
-      width: 85%;
+      width: 100%;
       font-weight: 300;
+      text-align: justify;
       color: var(--primary);
 
       @include tablet-down {
